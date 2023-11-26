@@ -1,0 +1,49 @@
+# 调试模式将加速钓鱼速度
+debug-mode: false
+
+# 命令可以使用的变量：
+# {player} 玩家名称
+
+# 将钓鱼的垃圾替换为命令或者物品。
+junk:
+  # 将哪些物品识别为垃圾？默认为原版掉到的垃圾
+  # https://zh.minecraft.wiki/w/%E9%92%93%E9%B1%BC
+  materials:
+    - LILY_PAD
+    - BAMBOO
+    - BOWL
+    - FISHING_ROD
+    - LEATHER
+    - LEATHER_BOOTS
+    - ROTTEN_FLESH
+    - STICK
+    - STRING
+    - POTION
+    - BONE
+    - INK_SAC
+    - TRIPWIRE_HOOK
+  command-items:
+    fish1:
+      - "say 恭喜{player}钓到了垃圾！"
+    fish2:
+      - "say 恭喜{player}钓到了垃圾！！！"
+  chest-items: {}
+
+# 将钓鱼的宝藏替换为命令或者物品。
+treasure:
+  # 将哪些物品识别为宝藏？默认为原版掉到的垃圾
+  # https://zh.minecraft.wiki/w/%E9%92%93%E9%B1%BC
+  materials:
+    - BOW
+    - ENCHANTED_BOOK
+    - FISHING_ROD
+    - NAME_TAG
+    - NAUTILUS_SHELL
+    - SADDLE
+  command-items:
+    fish1:
+      - "say 恭喜{player}钓到了宝藏！"
+    fish2:
+      - "say 恭喜{player}钓到了宝藏！！！"
+  chest-items: {}
+

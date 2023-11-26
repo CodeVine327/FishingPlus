@@ -1,0 +1,14 @@
+name: FishingPlus
+version: '${version}'
+main: io.github.codevine327.fishingplus.FishingPlus
+api-version: '1.20'
+authors: [ TheLittle_Yang ]
+website: https://github.com/CodeVine327
+
+commands:
+  fishingplus:
+    permission: fishingplus.admin
+
+permissions:
+  fishingplus.admin:
+    default: op
